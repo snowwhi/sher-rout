@@ -1,16 +1,1 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.main{
-    height:100vh;
-    width: 100vw;
-    background-color: slategray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: xx-large;
-    font-weight: bolder;
-    color: black;
-}
+@import "tailwindcss";
