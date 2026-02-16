@@ -9,12 +9,14 @@ import Memebership from './Componenets/Membership'
 import Resources from './Componenets/Resources'
 import Donate from './Componenets/Donate'
 import NotFound from './Componenets/NotFound/NotFound'
+import Home from './Componenets/Home'
 function App() {
 
   return (
     <>
     <Routes>
       <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Home/>}/>
         <Route path="contact" element={<Contact />} />
         <Route path="Classes" element={<Classes />} />
         <Route path="Event" element={<Event />} />
