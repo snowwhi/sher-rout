@@ -1,16 +1,30 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠 Tech Stack
 
-Currently, two official plugins are available:
+* **Frontend:** React 18 (Vite)
+* **Routing:** React Router DOM v6
+* **Styling:** Tailwind CSS
+* **Icons:** Remix Icon (Webfont)
+* **Transitions:** Tailwind Keyframes & CSS3 Transitions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚦 Routing Architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The application implements **Client-Side Routing**, ensuring that navigating between sections is instantaneous without a full page reload.
 
-## Expanding the ESLint configuration
+### Route Map
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Path | Component | Key Features |
+| :--- | :--- | :--- |
+| `/` | `Home` | Animated Slider, Featured CTAs |
+| `/about` | `About` | Community Mission & SVG Illustrations |
+| `/classes` | `Classes` | Dynamic Category Filtering, Mentor Info |
+| `/events` | `Events` | Date-focused list, Registration logic |
+| `/membership` | `Membership` | Tiered pricing with featured "Premium" card |
+| `/resources` | `Resources` | Searchable grid with file-type icons |
+| `/contact` | `Contact` | Form validation & Social media integration |
+| `/donate` | `Donate` | Impact-driven donation portal |
+
+---
+

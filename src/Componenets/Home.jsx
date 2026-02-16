@@ -31,7 +31,7 @@ const Home = () => {
   const prevSlide = () => setActive((prev) => (prev - 1 + slides.length) % slides.length);
 
   return (
-    <div className={` w-full h-[500px] overflow-hidden ${slides[active].bg} transition-colors duration-700`}>
+    <div className={` w-full h-screen overflow-hidden ${slides[active].bg} transition-colors duration-700`}>
       
       <div className="max-w-6xl mx-auto h-full flex items-center px-10">
         {/* We use the 'key' attribute here. When it changes, React re-renders the div, 
