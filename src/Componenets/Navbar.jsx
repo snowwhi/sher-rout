@@ -7,8 +7,7 @@ const Nav = () => {
   return (
     <header className='w-full h-10'>
        <div  className=" h-20 absolute top-0 left-0 w-80 -bg-linear-0 from-rose-600 to-white" style={{ clipPath: 'polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%)' }}
->
-</div>
+       ></div>
         
         <div>
             <ul className='flex flex-wrap bg-rose-600 text-white py-1 font-bold  gap-10 justify-end pr-20'>
