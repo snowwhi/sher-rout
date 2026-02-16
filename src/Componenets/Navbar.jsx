@@ -2,10 +2,14 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import 'remixicon/fonts/remixicon.css'
 import logo from '../assets/249.jpg'
+import image from '../assets/images.jpeg'
 const Nav = () => {
   return (
     <header className='w-full h-10'>
-        <img  className='[clip-path:polygon(0_0,_100%_0,_100%_20%,_100%_40%,_0_100%)] h-20 absolute top-0 left-0 w-80'src={logo} alt="" srcset="" />
+       <div  className=" h-20 absolute top-0 left-0 w-80 -bg-linear-0 from-rose-600 to-white" style={{ clipPath: 'polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%)' }}
+>
+</div>
+        
         <div>
             <ul className='flex flex-wrap bg-rose-600 text-white py-1 font-bold  gap-10 justify-end pr-20'>
                 <li className='flex gap-1'>
